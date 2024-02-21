@@ -1,0 +1,35 @@
+:root {
+  --page-bg-color: #0c0c0c;
+  --gray-bg-color: rgba(255, 255, 255, 0.08);
+  --gray-border-color: rgba(255, 255, 255, 0.1);
+  --text-gray: rgba(255, 255, 255, 0.5);
+  --text-white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--page-bg-color);
+  color: var(--text-white);
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+}
+
+.ant-select-dropdown {
+  background-color: var(--gray-bg-color);
+}
+
+.ant-select-dropdown .ant-select-item {
+  color: var(--text-white);
+}
